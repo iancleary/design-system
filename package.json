@@ -9,7 +9,7 @@
     "fmt": "prettier --cache --write . && npm run lint -- --fix"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ian Cleary <npm@iancleary.me>",
   "license": "MPL 2.0",
   "files": [
     "styles/dist/*.css"
