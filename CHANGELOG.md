@@ -1,3 +1,15 @@
+# v0.0.10 (Mon Sep 23 2024)
+
+#### ⚠️ Pushed to `main`
+
+- Update CHANGELOG.md ([@iancleary](https://github.com/iancleary))
+
+#### Authors: 1
+
+- Ian Cleary ([@iancleary](https://github.com/iancleary))
+
+---
+
 # v0.0.9 (Mon Sep 23 2024)
 
 #### 🐛 Bug Fix
