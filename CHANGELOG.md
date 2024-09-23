@@ -1,3 +1,15 @@
+# v0.0.11 (Mon Sep 23 2024)
+
+#### 🐛 Bug Fix
+
+- change email [#9](https://github.com/iancleary/design-system/pull/9) ([@iancleary](https://github.com/iancleary))
+
+#### Authors: 1
+
+- Ian Cleary ([@iancleary](https://github.com/iancleary))
+
+---
+
 # v0.0.10 (Mon Sep 23 2024)
 
 #### ⚠️ Pushed to `main`
