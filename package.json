@@ -1,0 +1,46 @@
+{
+  "name": "@iancleary/design-system",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "release": "auto shipit",
+    "lint": "eslint --ext .js,.ts,.tsx,.json .",
+    "fmt": "prettier --cache --write . && npm run lint -- --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MPL 2.0",
+  "files": [
+    "styles/dist/*.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iancleary/design-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iancleary/design-system/issues"
+  },
+  "homepage": "https://github.com/iancleary/design-system#readme",
+  "auto": {
+    "plugins": [
+      "npm",
+      "released"
+    ]
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "auto": "^11.2.1",
+    "eslint": "^9.11.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3"
+  }
+}
