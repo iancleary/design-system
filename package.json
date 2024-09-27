@@ -5,7 +5,7 @@
   "type": "module",
   "main": "components/dist/index.js",
   "scripts": {
-    "build:components": "tsup --dts",
+    "build:components": "tsup",
     "release": "auto shipit",
     "lint": "eslint .",
     "fmt": "prettier --cache --write . && npm run lint -- --fix"

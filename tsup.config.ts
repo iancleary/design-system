@@ -9,9 +9,9 @@ import { defineConfig } from "tsup";
 
 export default defineConfig({
   publicDir: "components/src/assets/",
-  entry: ["components/src/index.ts"],
+  entry: ["components/src/index.js"],
   outDir: "components/dist",
-  external: ["react/jsx-runtime"],
+  external: ["react/jsx-runtime", "clsx", "@remix-run/react"],
   splitting: false,
   sourcemap: true,
   clean: true,
