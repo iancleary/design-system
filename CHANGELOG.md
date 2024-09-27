@@ -1,3 +1,15 @@
+# v0.1.0 (Fri Sep 27 2024)
+
+#### 🚀 Enhancement
+
+- Add tsup and components folder [#10](https://github.com/iancleary/design-system/pull/10) ([@iancleary](https://github.com/iancleary))
+
+#### Authors: 1
+
+- Ian Cleary ([@iancleary](https://github.com/iancleary))
+
+---
+
 # v0.0.11 (Mon Sep 23 2024)
 
 #### 🐛 Bug Fix
