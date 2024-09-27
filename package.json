@@ -2,11 +2,12 @@
   "name": "@iancleary/design-system",
   "version": "0.0.11",
   "description": "",
+  "type": "module",
   "main": "components/dist/index.js",
   "scripts": {
     "build:components": "tsup --dts",
     "release": "auto shipit",
-    "lint": "eslint --ext .js,.ts,.tsx,.json .",
+    "lint": "eslint .",
     "fmt": "prettier --cache --write . && npm run lint -- --fix"
   },
   "keywords": [],
