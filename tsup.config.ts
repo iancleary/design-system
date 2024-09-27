@@ -3,8 +3,9 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, you can obtain one at https://mozilla.org/MPL/2.0/.
  *
- * Copyright Oxide Computer Company
+ * Copyright Ian Cleary
  */
+
 import { defineConfig } from "tsup";
 
 export default defineConfig({
