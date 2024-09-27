@@ -5,8 +5,7 @@ on: [push]
 jobs:
   release:
     runs-on: ubuntu-latest
-    if:
-      "!contains(github.event.head_commit.message, 'ci skip') &&
+    if: "!contains(github.event.head_commit.message, 'ci skip') &&
       !contains(github.event.head_commit.message, 'skip ci')"
     steps:
       - name: Checkout
@@ -25,7 +24,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: 'pnpm'
+          cache: "pnpm"
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
