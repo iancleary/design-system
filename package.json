@@ -15,8 +15,7 @@
   "author": "Ian Cleary <github@iancleary.me>",
   "license": "MPL 2.0",
   "files": [
-    "styles/dist/*.css",
-    "styles/dist/*.stylex.js",
+    "styles/dist/**",
     "components/dist/**"
   ],
   "repository": {
