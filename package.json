@@ -15,7 +15,7 @@
   "author": "Ian Cleary <github@iancleary.me>",
   "license": "MPL 2.0",
   "files": [
-    "styles/dist/*.css",
+    "styles/dist/**",
     "components/dist/**"
   ],
   "repository": {
@@ -38,7 +38,8 @@
   },
   "peerDependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "@stylexjs/stylex": "^0.9.3"
   },
   "devDependencies": {
     "auto": "^11.2.1",
