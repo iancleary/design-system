@@ -16,7 +16,7 @@
   "license": "MPL 2.0",
   "files": [
     "styles/dist/*.css",
-    "sytles/dist/*.stylex.js",
+    "styles/dist/*.stylex.js",
     "components/dist/**"
   ],
   "repository": {
