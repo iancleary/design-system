@@ -1,3 +1,15 @@
+# v0.2.0 (Fri Jan 17 2025)
+
+#### 🚀 Enhancement
+
+- Add stylex tokens [#14](https://github.com/iancleary/design-system/pull/14) ([@iancleary](https://github.com/iancleary))
+
+#### Authors: 1
+
+- Ian Cleary ([@iancleary](https://github.com/iancleary))
+
+---
+
 # v0.1.0 (Fri Sep 27 2024)
 
 #### 🚀 Enhancement
