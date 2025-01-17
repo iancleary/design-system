@@ -5,8 +5,16 @@ import { styleSheet } from "@stylexjs/stylex/lib/StyleXSheet";
 const DARK = "@media (prefers-color-scheme: dark)";
 
 export const colors = stylex.defineVars({
-  default: { default: "white", [DARK]: "black" },
 
+  success: "hsl(140, 85%, 25%)",
+  successAccent: {
+    default: "hsl(140, 85%, 15%)",
+    [DARK]: "hsl(140, 85%, 35%)",
+  },
+
+  danger: "hsl(347, 88%, 42%)",
+  dangerAccent: { default: "hsl(347, 88%, 32%)", [DARK]: "hsl(347, 88%, 52%)" },
+  
   // Primary
   // These are the splashes of color that should
   // appear the most in your UI, and are the ones that determine the
@@ -38,14 +46,6 @@ export const colors = stylex.defineVars({
   neutral800: { default: "hsl(211, 39%, 13%)", [DARK]: "hsl(212, 33%, 79%)" },
   neutral900: { default: "hsl(209, 61%, 6%)", [DARK]: "hsl(210, 36%, 86%)" },
 
-  success: "hsl(140, 85%, 25%)",
-  successAccent: {
-    default: "hsl(140, 85%, 15%)",
-    [DARK]: "hsl(140, 85%, 35%)",
-  },
-
-  danger: "hsl(347, 88%, 42%)",
-  dangerAccent: { default: "hsl(347, 88%, 32%)", [DARK]: "hsl(347, 88%, 52%)" },
   // Supporting
   // These colors should be used fairly conservatively throughout your UI to
   // avoid overpowering your primary colors. Use them when you need an
