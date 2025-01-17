@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@stylexjs/stylex':
-    specifier: ^0.10.0
-    version: 0.10.0
+    specifier: ^0.9.3
+    version: 0.9.3
   react:
     specifier: ^18.2.0
     version: 18.3.1
@@ -841,8 +841,8 @@ packages:
     dev: true
     optional: true
 
-  /@stylexjs/stylex@0.10.0:
-    resolution: {integrity: sha512-nO3STzHZDSb92RADfXsNDsjspd0De84TdpkBVbC914ppMLw5hz6B35puJZ8swjEbqUZC8xYncpd3yWot+gVLeA==}
+  /@stylexjs/stylex@0.9.3:
+    resolution: {integrity: sha512-q3kYZ5bMXlVyF6Wh8b8Uwl701aSu8aEhim0AlQTaAXKMt0J6nTCWOjSwq6GNR74Ez4pcm2Ha4NDqhkYhKYGBcQ==}
     dependencies:
       css-mediaquery: 0.1.2
       invariant: 2.2.4
