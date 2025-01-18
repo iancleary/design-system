@@ -1,5 +1,12 @@
+/*
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, you can obtain one at https://mozilla.org/MPL/2.0/.
+ *
+ * Copyright Ian Cleary
+ */
+
 import * as stylex from "@stylexjs/stylex";
-import { styleSheet } from "@stylexjs/stylex/lib/StyleXSheet";
 
 // A constant can be used to avoid repeating the media query
 const DARK = "@media (prefers-color-scheme: dark)";
