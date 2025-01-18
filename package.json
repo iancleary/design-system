@@ -15,8 +15,7 @@
   "license": "MPL 2.0",
   "files": [
     "index.ts",
-    "styles/reset.css",
-    "styles/tokens.stylex.ts"
+    "styles/reset.css"
   ],
   "repository": {
     "type": "git",
