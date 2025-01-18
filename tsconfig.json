@@ -1,0 +1,8 @@
+{
+  "include": [
+    "components/**/*.ts",
+    "components/**/*.tsx",
+    "components/src/index.tsx",
+    "components/src/ui/index.tsx"
+  ]
+}
