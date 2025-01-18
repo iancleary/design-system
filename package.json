@@ -14,10 +14,12 @@
   "author": "Ian Cleary <github@iancleary.me>",
   "license": "MPL 2.0",
   "files": [
-    "styles/dist/*.css"
+    "components/dist/**",
+    "styles/*.css",
+    "styles/tokens.stylex.ts"
   ],
   "exports": {
-    "stylex": "./styles/dist/tokens.stylex.ts",
+    "stylex": "./styles/tokens.stylex.ts",
     "ui": "./components/dist/index.cjs"
   },
   "repository": {
