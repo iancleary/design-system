@@ -14,8 +14,8 @@
   "author": "Ian Cleary <github@iancleary.me>",
   "license": "MPL 2.0",
   "files": [
-    "index.ts",
-    "styles/reset.css"
+    "styles/reset.css",
+    "styles/tokens.stylex.ts"
   ],
   "repository": {
     "type": "git",
