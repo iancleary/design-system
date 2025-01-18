@@ -5,7 +5,6 @@ import { styleSheet } from "@stylexjs/stylex/lib/StyleXSheet";
 const DARK = "@media (prefers-color-scheme: dark)";
 
 export const colors = stylex.defineVars({
-
   success: "hsl(140, 85%, 25%)",
   successAccent: {
     default: "hsl(140, 85%, 15%)",
@@ -14,7 +13,7 @@ export const colors = stylex.defineVars({
 
   danger: "hsl(347, 88%, 42%)",
   dangerAccent: { default: "hsl(347, 88%, 32%)", [DARK]: "hsl(347, 88%, 52%)" },
-  
+
   // Primary
   // These are the splashes of color that should
   // appear the most in your UI, and are the ones that determine the
