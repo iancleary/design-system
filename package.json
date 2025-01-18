@@ -18,6 +18,9 @@
     "styles/reset.css",
     "styles/tokens.stylex.ts"
   ],
+  "exports": {
+    "ui": "./components/dist"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/iancleary/design-system.git"
