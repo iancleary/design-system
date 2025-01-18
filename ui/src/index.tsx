@@ -6,4 +6,4 @@
  * Copyright Ian Cleary
  */
 
-export * from './button/Button'
+export { Button } from "./Button";

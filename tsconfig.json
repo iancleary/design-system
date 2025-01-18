@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "jsx": "react"
+  },
+  "include": [
+    "ui/**/*.ts",
+    "ui/**/*.tsx",
+    "ui/src/index.tsx",
+  ],
+}

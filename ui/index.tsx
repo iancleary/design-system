@@ -6,4 +6,4 @@
  * Copyright Ian Cleary
  */
 
-export * from './ui';
+export * from "./ui";

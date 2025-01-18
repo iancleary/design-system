@@ -1,11 +1,17 @@
+/*
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, you can obtain one at https://mozilla.org/MPL/2.0/.
+ *
+ * Copyright Ian Cleary
+ */
+
 import * as stylex from "@stylexjs/stylex";
-import { styleSheet } from "@stylexjs/stylex/lib/StyleXSheet";
 
 // A constant can be used to avoid repeating the media query
 const DARK = "@media (prefers-color-scheme: dark)";
 
 export const colors = stylex.defineVars({
-
   success: "hsl(140, 85%, 25%)",
   successAccent: {
     default: "hsl(140, 85%, 15%)",
@@ -14,7 +20,7 @@ export const colors = stylex.defineVars({
 
   danger: "hsl(347, 88%, 42%)",
   dangerAccent: { default: "hsl(347, 88%, 32%)", [DARK]: "hsl(347, 88%, 52%)" },
-  
+
   // Primary
   // These are the splashes of color that should
   // appear the most in your UI, and are the ones that determine the
