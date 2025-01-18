@@ -1,3 +1,15 @@
+# v0.3.0 (Sat Jan 18 2025)
+
+#### 🚀 Enhancement
+
+- Update files, exports, button component [#16](https://github.com/iancleary/design-system/pull/16) ([@iancleary](https://github.com/iancleary))
+
+#### Authors: 1
+
+- Ian Cleary ([@iancleary](https://github.com/iancleary))
+
+---
+
 # v0.2.0 (Fri Jan 17 2025)
 
 #### 🚀 Enhancement
