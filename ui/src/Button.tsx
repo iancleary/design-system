@@ -10,7 +10,7 @@ import React from "react";
 import { Link } from "@remix-run/react";
 
 import * as stylex from "@stylexjs/stylex";
-import { size, colors } from "../../../styles/tokens.stylex";
+import { size, colors } from "../../styles/tokens.stylex";
 
 const styles = stylex.create({
   common: {

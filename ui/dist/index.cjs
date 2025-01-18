@@ -22,11 +22,11 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
 ));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-// components/src/index.tsx
+// ui/src/index.tsx
 var src_exports = {};
 module.exports = __toCommonJS(src_exports);
 
-// components/src/ui/Button.tsx
+// ui/src/Button.tsx
 var import_react = __toESM(require("react"), 1);
 var import_react2 = require("@remix-run/react");
 var stylex2 = __toESM(require("@stylexjs/stylex"), 1);
@@ -594,7 +594,7 @@ var marginBottom = stylex.create({
   }
 });
 
-// components/src/ui/Button.tsx
+// ui/src/Button.tsx
 var styles = stylex2.create({
   common: {
     width: "fit-content",

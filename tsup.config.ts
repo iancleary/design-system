@@ -9,8 +9,8 @@
 import { defineConfig } from "tsup";
 
 export default defineConfig({
-  entry: ["components/src/index.tsx"],
-  outDir: "components/dist",
+  entry: ["index.tsx"],
+  outDir: "ui/dist",
   external: ["react/jsx-runtime", "@stylexjs/stylex", "@remix-run/react"],
   splitting: false,
   sourcemap: true,
