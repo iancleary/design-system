@@ -1,3 +1,15 @@
+# v0.3.1 (Sat Jan 18 2025)
+
+#### 🐛 Bug Fix
+
+- Move file back to styles/tokens.stylex.ts [#17](https://github.com/iancleary/design-system/pull/17) ([@iancleary](https://github.com/iancleary))
+
+#### Authors: 1
+
+- Ian Cleary ([@iancleary](https://github.com/iancleary))
+
+---
+
 # v0.3.0 (Sat Jan 18 2025)
 
 #### 🚀 Enhancement
