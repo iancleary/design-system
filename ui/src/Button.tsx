@@ -7,8 +7,7 @@
  */
 
 import React from "react";
-import { Link } from "@remix-run/react";
-
+import { Link } from "react-router";
 import * as stylex from "@stylexjs/stylex";
 import { size, colors } from "../../styles/tokens.stylex";
 
@@ -58,8 +57,6 @@ const styles = stylex.create({
   },
 });
 
-
-
 interface Props {
   to?: string;
   variant?: string;
@@ -86,7 +83,7 @@ const Button: React.FC<Props> = ({
         variant === "danger" && styles.danger,
         size === "sm" && styles.sm,
         size === "icon" && styles.icon,
-        size === "base" && styles.base,
+        size === "base" && styles.base
       )}
     >
       {children}
@@ -103,7 +100,7 @@ const Button: React.FC<Props> = ({
         variant === "danger" && styles.danger,
         size === "sm" && styles.sm,
         size === "icon" && styles.icon,
-        size === "base" && styles.base,
+        size === "base" && styles.base
       )}
     >
       {children}
