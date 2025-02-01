@@ -13,228 +13,112 @@ const DARK = "@media (prefers-color-scheme: dark)";
 
 export const colors = stylex.defineVars({
   success: "hsl(140, 85%, 25%)",
-  successAccent: {
-    default: "hsl(140, 85%, 15%)",
-    [DARK]: "hsl(140, 85%, 35%)",
-  },
+  successAccent: "hsl(140, 85%, 35%)",
 
   danger: "hsl(347, 88%, 42%)",
-  dangerAccent: { default: "hsl(347, 88%, 32%)", [DARK]: "hsl(347, 88%, 52%)" },
+  dangerAccent: "hsl(347, 88%, 52%)",
 
   // Primary
   // These are the splashes of color that should
   // appear the most in your UI, and are the ones that determine the
   // overall "look" of the site. Use these for things like primary actions,
   // links, navigation items, icons, accent borders, or text you want to emphasize.
-  primary50: { default: "hsl(152 68%, 96%)", [DARK]: "hsl(170, 97%, 15%)" },
-  primary100: { default: "hsl(154, 75%, 87%)", [DARK]: "hsl(168, 80%, 23%)" },
-  primary200: { default: "hsl(156, 73%, 74%)", [DARK]: "hsl(166, 72%, 28%)" },
-  primary300: { default: "hsl(158, 58%, 62%)", [DARK]: "hsl(164, 71%, 34%)" },
-  primary400: { default: "hsl(160, 51%, 49%)", [DARK]: "hsl(162, 63%, 41%)" },
-  primary500: { default: "hsl(162, 63%, 41%)", [DARK]: "hsl(160, 51%, 49%)" },
-  primary600: { default: "hsl(164, 71%, 34%)", [DARK]: "hsl(158, 58%, 62%)" },
-  primary700: { default: "hsl(166, 72%, 28%)", [DARK]: "hsl(156, 73%, 74%)" },
-  primary800: { default: "hsl(168, 80%, 23%)", [DARK]: "hsl(154, 75%, 87%)" },
-  primary900: { default: "hsl(170, 97%, 15%)", [DARK]: "hsl(152 68%, 96%)" },
+  primary950: "hsl(170, 97%, 8%)",
+  primary900: "hsl(170, 97%, 15%)",
+  primary800: "hsl(168, 80%, 23%)",
+  primary700: "hsl(166, 72%, 28%)",
+  primary600: "hsl(164, 71%, 34%)",
+  primary500: "hsl(162, 63%, 41%)",
+  primary400: "hsl(160, 51%, 49%)",
+  primary300: "hsl(158, 58%, 62%)",
+  primary200: "hsl(156, 73%, 74%)",
+  primary100: "hsl(154, 75%, 87%)",
+  primary50: "hsl(152 68%, 96%)",
 
   // Neutral
   // These are the colors you will use the most and will make up the majority
   // of your UI. Use them for most of your text, backgrounds, and borders,
   // as well as for things like secondary buttons and links
-  neutral50: { default: "hsl(210, 36%, 86%)", [DARK]: "hsl(210, 61%, 6%)" },
-  neutral100: { default: "hsl(212, 33%, 79%)", [DARK]: "hsl(211, 39%, 13%)" },
-  neutral200: { default: "hsl(210, 31%, 70%)", [DARK]: "hsl(209, 34%, 20%)" },
-  neutral300: { default: "hsl(211, 27%, 60%)", [DARK]: "hsl(209, 28%, 29%)" },
-  neutral400: { default: "hsl(209, 23%, 50%)", [DARK]: "hsl(210, 22%, 39%)" },
-  neutral500: { default: "hsl(210, 22%, 39%)", [DARK]: "hsl(209, 23%, 50%)" },
-  neutral600: { default: "hsl(209, 28%, 29%)", [DARK]: "hsl(211, 27%, 60%)" },
-  neutral700: { default: "hsl(209, 34%, 20%)", [DARK]: "hsl(210, 31%, 70%)" },
-  neutral800: { default: "hsl(211, 39%, 13%)", [DARK]: "hsl(212, 33%, 79%)" },
-  neutral900: { default: "hsl(209, 61%, 6%)", [DARK]: "hsl(210, 36%, 86%)" },
+  neutral950:  "hsl(210, 61%, 6%)" ,
+  neutral900: "hsl(211, 39%, 13%)",
+  neutral800: "hsl(209, 34%, 20%)",
+  neutral700: "hsl(209, 28%, 29%)",
+  neutral600: "hsl(210, 22%, 39%)",
+  neutral500: "hsl(209, 23%, 50%)",
+  neutral400: "hsl(211, 27%, 60%)",
+  neutral300: "hsl(210, 31%, 70%)",
+  neutral200: "hsl(212, 33%, 79%)",
+  neutral100: "hsl(210, 36%, 86%)",
+  neutral50: "hsl(210, 36%, 93%)",
 
   // Supporting
   // These colors should be used fairly conservatively throughout your UI to
   // avoid overpowering your primary colors. Use them when you need an
   // element to stand out, or to reinforce things like error states or positive
   // trends with the appropriate semantic color.
-  supportingBlue50: {
-    default: "hsl(205, 79%, 92%)",
-    [DARK]: "hsl(205, 100%, 21%)",
-  },
-  supportingBlue100: {
-    default: "hsl(205, 97%, 85%)",
-    [DARK]: "hsl(205, 87%, 29%)",
-  },
-  supportingBlue200: {
-    default: "hsl(205, 84%, 74%)",
-    [DARK]: "hsl(205, 82%, 33%)",
-  },
-  supportingBlue300: {
-    default: "hsl(205, 74%, 65%)",
-    [DARK]: "hsl(205, 76%, 39%)",
-  },
-  supportingBlue400: {
-    default: "hsl(205, 65%, 55%)",
-    [DARK]: "hsl(205, 67%, 45%)",
-  },
-  supportingBlue500: {
-    default: "hsl(205, 67%, 45%)",
-    [DARK]: "hsl(205, 65%, 55%)",
-  },
-  supportingBlue600: {
-    default: "hsl(205, 76%, 39%)",
-    [DARK]: "hsl(205, 74%, 65%)",
-  },
-  supportingBlue700: {
-    default: "hsl(205, 82%, 33%)",
-    [DARK]: "hsl(205, 84%, 74%)",
-  },
-  supportingBlue800: {
-    default: "hsl(205, 87%, 29%)",
-    [DARK]: "hsl(205, 97%, 85%)",
-  },
-  supportingBlue900: {
-    default: "hsl(205, 100%, 21%)",
-    [DARK]: "hsl(205, 79%, 92%)",
-  },
+  supportingBlue950: "hsl(205, 100%, 12%)",
+  supportingBlue900: "hsl(205, 100%, 21%)",
+  supportingBlue800: "hsl(205, 87%, 29%)",
+  supportingBlue700: "hsl(205, 82%, 33%)",
+  supportingBlue600: "hsl(205, 76%, 39%)",
+  supportingBlue500: "hsl(205, 67%, 45%)",
+  supportingBlue400: "hsl(205, 65%, 55%)",
+  supportingBlue300: "hsl(205, 74%, 65%)",
+  supportingBlue200: "hsl(205, 84%, 74%)",
+  supportingBlue100: "hsl(205, 97%, 85%)",
+  supportingBlue50: "hsl(205, 79%, 92%)",
 
   // Supporting
   // These colors should be used fairly conservatively throughout your UI to
   // avoid overpowering your primary colors. Use them when you need an
   // element to stand out, or to reinforce things like error states or positive
   // trends with the appropriate semantic color.
-  supportingPurple50: {
-    default: "hsl(262, 61%, 93%)",
-    [DARK]: "hsl(263, 85%, 18%)",
-  },
-  supportingPurple100: {
-    default: "hsl(261, 68%, 84%)",
-    [DARK]: "hsl(262, 72%, 25%)",
-  },
-  supportingPurple200: {
-    default: "hsl(261, 54%, 68%)",
-    [DARK]: "hsl(262, 69%, 31%)",
-  },
-  supportingPurple300: {
-    default: "hsl(261, 47%, 58%)",
-    [DARK]: "hsl(262, 60%, 38%)",
-  },
-  supportingPurple400: {
-    default: "hsl(262, 43%, 51%)",
-    [DARK]: "hsl(262, 48%, 46%)",
-  },
-  supportingPurple500: {
-    default: "hsl(262, 48%, 46%)",
-    [DARK]: "hsl(262, 43%, 51%)",
-  },
-  supportingPurple600: {
-    default: "hsl(262, 60%, 38%)",
-    [DARK]: "hsl(261, 47%, 58%)",
-  },
-  supportingPurple700: {
-    default: "hsl(262, 69%, 31%)",
-    [DARK]: "hsl(261, 54%, 68%)",
-  },
-  supportingPurple800: {
-    default: "hsl(262, 72%, 25%)",
-    [DARK]: "hsl(261, 68%, 84%)",
-  },
-  supportingPurple900: {
-    default: "hsl(263, 85%, 18%)",
-    [DARK]: "hsl(262, 61%, 93%)",
-  },
+  supportingPurple950: "hsl(263, 85%, 11%)",
+  supportingPurple900: "hsl(263, 85%, 18%)",
+  supportingPurple800: "hsl(262, 72%, 25%)",
+  supportingPurple700: "hsl(262, 69%, 31%)",
+  supportingPurple600: "hsl(262, 60%, 38%)",
+  supportingPurple500: "hsl(262, 48%, 46%)",
+  supportingPurple400: "hsl(262, 43%, 51%)",
+  supportingPurple300: "hsl(261, 47%, 58%)",
+  supportingPurple200: "hsl(261, 54%, 68%)",
+  supportingPurple100: "hsl(261, 68%, 84%)",
+  supportingPurple50: "hsl(262, 61%, 93%)",
 
   // Supporting
   // These colors should be used fairly conservatively throughout your UI to
   // avoid overpowering your primary colors. Use them when you need an
   // element to stand out, or to reinforce things like error states or positive
   // trends with the appropriate semantic color.
-  supportingRed50: {
-    default: "hsl(360, 100%, 97%)",
-    [DARK]: "hsl(360, 92%, 20%)",
-  },
-  supportingRed100: {
-    default: "hsl(360, 82%, 89%)",
-    [DARK]: "hsl(360, 85%, 25%)",
-  },
-  supportingRed200: {
-    default: "hsl(360, 77%, 78%)",
-    [DARK]: "hsl(360, 79%, 32%)",
-  },
-  supportingRed300: {
-    default: "hsl(360, 71%, 66%)",
-    [DARK]: "hsl(360, 72%, 38%)",
-  },
-  supportingRed400: {
-    default: "hsl(360, 64%, 55%)",
-    [DARK]: "hsl(360, 67%, 44%)",
-  },
-  supportingRed500: {
-    default: "hsl(360, 67%, 44%)",
-    [DARK]: "hsl(360, 64%, 55%)",
-  },
-  supportingRed600: {
-    default: "hsl(360, 72%, 38%)",
-    [DARK]: "hsl(360, 71%, 66%)",
-  },
-  supportingRed700: {
-    default: "hsl(360, 79%, 32%)",
-    [DARK]: "hsl(360, 77%, 78%)",
-  },
-  supportingRed800: {
-    default: "hsl(360, 85%, 25%)",
-    [DARK]: "hsl(360, 82%, 89%)",
-  },
-  supportingRed900: {
-    default: "hsl(360, 92%, 20%)",
-    [DARK]: "hsl(360, 100%, 97%)",
-  },
+  
+  supportingRed950: "hsl(360, 92%, 11%)",
+  supportingRed900: "hsl(360, 92%, 20%)",
+  supportingRed800:"hsl(360, 85%, 25%)",
+  supportingRed700: "hsl(360, 79%, 32%)",
+  supportingRed600: "hsl(360, 72%, 38%)",
+  supportingRed500: "hsl(360, 67%, 44%)",
+  supportingRed400: "hsl(360, 64%, 55%)",
+  supportingRed300: "hsl(360, 71%, 66%)",
+  supportingRed200: "hsl(360, 77%, 78%)",
+  supportingRed100: "hsl(360, 82%, 89%)",
+  supportingRed50: "hsl(360, 100%, 97%)",
 
   // Supporting
   // These colors should be used fairly conservatively throughout your UI to
   // avoid overpowering your primary colors. Use them when you need an
   // element to stand out, or to reinforce things like error states or positive
   // trends with the appropriate semantic color.
-  supportingYellow50: {
-    default: "hsl(45, 100%, 96%)",
-    [DARK]: "hsl(43, 86%, 17%)",
-  },
-  supportingYellow100: {
-    default: "hsl(45, 90%, 88%)",
-    [DARK]: "hsl(43, 77%, 27%)",
-  },
-  supportingYellow200: {
-    default: "hsl(45, 86%, 81%)",
-    [DARK]: "hsl(43, 72%, 37%)",
-  },
-  supportingYellow300: {
-    default: "hsl(43, 90%, 76%)",
-    [DARK]: "hsl(42, 63%, 48%)",
-  },
-  supportingYellow400: {
-    default: "hsl(43, 89%, 70%)",
-    [DARK]: "hsl(42, 78%, 60%)",
-  },
-  supportingYellow500: {
-    default: "hsl(42, 78%, 60%)",
-    [DARK]: "hsl(43, 89%, 70%)",
-  },
-  supportingYellow600: {
-    default: "hsl(42, 63%, 48%)",
-    [DARK]: "hsl(43, 90%, 76%)",
-  },
-  supportingYellow700: {
-    default: "hsl(43, 72%, 37%)",
-    [DARK]: "hsl(45, 86%, 81%)",
-  },
-  supportingYellow800: {
-    default: "hsl(43, 77%, 27%)",
-    [DARK]: "hsl(45, 90%, 88%)",
-  },
-  supportingYellow900: {
-    default: "hsl(43, 86%, 17%)",
-    [DARK]: "hsl(45, 100%, 96%)",
-  },
+  supportingYellow950: "hsl(43, 86%, 10%)",
+  supportingYellow900: "hsl(43, 86%, 17%)",
+  supportingYellow800: "hsl(43, 77%, 27%)",
+  supportingYellow700: "hsl(43, 72%, 37%)",
+  supportingYellow600: "hsl(42, 63%, 48%)",
+  supportingYellow500: "hsl(42, 78%, 60%)",
+  supportingYellow400: "hsl(43, 89%, 70%)",
+  supportingYellow300: "hsl(43, 90%, 76%)",
+  supportingYellow200: "hsl(45, 86%, 81%)",
+  supportingYellow100: "hsl(45, 90%, 88%)",
+  supportingYellow50: "hsl(45, 100%, 96%)",
 });
 
 export const spacing = stylex.defineVars({
