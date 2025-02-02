@@ -1,3 +1,15 @@
+# v0.4.0 (Sun Feb 02 2025)
+
+#### 🚀 Enhancement
+
+- Remove dark style and match numbering system of tailwindcss where 50 is [#19](https://github.com/iancleary/design-system/pull/19) ([@iancleary](https://github.com/iancleary))
+
+#### Authors: 1
+
+- Ian Cleary ([@iancleary](https://github.com/iancleary))
+
+---
+
 # v0.3.1 (Sat Jan 18 2025)
 
 #### 🐛 Bug Fix
